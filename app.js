@@ -1,4 +1,4 @@
-let age=18;
+/*let age=18;
 
 age = +age;
 
@@ -22,4 +22,9 @@ if (gender.toLocaleLowerCase() === "муж") {
 }
 if (gender.toLocaleLowerCase() === "жен") {
   console.log("Вам направо");
-}
+}*/
+
+const isAdmin = false;
+const typeUserString = isAdmin? 'Администратор':'Пользователь'
+console.log(`Добро пожаловать: ${typeUserString}`);
+console.log(`Добро пожаловать: ${isAdmin? 'Администратор':'Пользователь'}`);
