@@ -50,7 +50,7 @@ switch (typeUser) {
 
 // Вывести на экран  числа от 1 до 10 через ","
 
-let a = 1;
+/*let a = 1;
 while (a >= 1 && a <= 10) {
   console.log(a + ",");
   a = a + 1;
@@ -62,4 +62,9 @@ let message = "";
 while (++i <= lastNumber) {
   message += `${i}${i !== lastNumber ? ",":'.'}`;
 }
-console.log(message);
+console.log(message);*/
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
