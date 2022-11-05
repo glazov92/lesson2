@@ -29,7 +29,7 @@ const typeUserString = isAdmin? 'Администратор':'Пользоват
 console.log(`Добро пожаловать: ${typeUserString}`);
 console.log(`Добро пожаловать: ${isAdmin? 'Администратор':'Пользователь'}`);*/
 
-const typeUser = "admin"; // user, guest, bot
+/*const typeUser = "admin"; // user, guest, bot
 switch (typeUser) {
   case "admin":
     console.log("Администратор");
@@ -46,4 +46,20 @@ switch (typeUser) {
   default:
     console.log("Неизвестный тип пользователя");
     break;
+}*/
+
+// Вывести на экран  числа от 1 до 10 через ","
+
+let a = 1;
+while (a >= 1 && a <= 10) {
+  console.log(a + ",");
+  a = a + 1;
 }
+
+let i = 0;
+const lastNumber = 10;
+let message = "";
+while (++i <= lastNumber) {
+  message += `${i}${i !== lastNumber ? ",":'.'}`;
+}
+console.log(message);
